@@ -346,11 +346,6 @@ button[type="submit"] i {
 
 /*media queries*/
 @media (min-width: 1440px) {
-  /*body*/
-  body {
-    background-color: var(--White);
-  }
-
   .wrapper {
     display: flex;
     flex-wrap: wrap;
@@ -368,7 +363,7 @@ button[type="submit"] i {
   }
 
   .wrapper:after {
-    --Light-Grayish-Violet: hsla(270, 12%, 97%, 0.621);
+    --Light-Grayish-Violet: hsl(276, 20%, 94.5%);
     height: 690px;
     width: 27%;
     border-top-left-radius: 56%;
