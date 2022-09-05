@@ -31,7 +31,6 @@ Users should be able to:
 ![](./my-solution/my%20solution%20mobile%20view.png)
 
 ### Links
-
 - Solution URL: [solution URL](https://your-solution-url.com)
 - Live Site URL: [ live site URL](https://aemrobe.github.io/chat-app-css-illustration-challenge/)
 
