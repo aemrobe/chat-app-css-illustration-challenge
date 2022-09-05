@@ -42,7 +42,12 @@ body {
   content: "";
   height: 504px;
   width: 50%;
-  background: linear-gradient(var(--Light-Magenta), var(--Light-Violet));
+  background: linear-gradient(
+    to top right,
+    var(--Light-Violet) 15%,
+    var(--Moderate-Violet) 35%,
+    var(--Light-Magenta)
+  );
   position: absolute;
   top: 0;
   left: 0;
@@ -342,7 +347,6 @@ button[type="submit"] i {
 /*media queries*/
 @media (min-width: 1440px) {
   /*body*/
-
   .wrapper {
     display: flex;
     flex-wrap: wrap;
