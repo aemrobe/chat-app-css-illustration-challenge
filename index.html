@@ -29,138 +29,146 @@
     />
   </head>
   <body>
-    <!--phone illustaration-->
-    <div class="phone">
-      <!--the top part of the phone-->
-      <div class="phone__header">
-        <div class="person-account">
-          <span class="left-chevron-icon">
-            <i class="fas fa-chevron-left"></i>
-          </span>
+    <div class="wrapper">
+      <!--phone illustaration-->
+      <div class="phone">
+        <!--the top part of the phone-->
+        <div class="phone__header">
+          <div class="person-account">
+            <span class="left-chevron-icon">
+              <i class="fas fa-chevron-left"></i>
+            </span>
 
-          <img
-            src="images/avatar.jpg"
-            alt="a photo of the person who owns the account"
-            class="person-account__img"
-          />
+            <img
+              src="images/avatar.jpg"
+              alt="a photo of the person who owns the account"
+              class="person-account__img"
+            />
 
-          <div class="person-account__info">
-            <h2 class="persons-name">Samuel Green</h2>
-            <p class="person-availability">Available to Walk</p>
+            <div class="person-account__info">
+              <h2 class="persons-name">Samuel Green</h2>
+              <p class="person-availability">Available to Walk</p>
+            </div>
           </div>
+
+          <span class="three-dot-menu">
+            <i class="fas fa-ellipsis-v"></i>
+          </span>
         </div>
 
-        <span class="three-dot-menu">
-          <i class="fas fa-ellipsis-v"></i>
-        </span>
-      </div>
+        <!--the part below the header of the phone-->
+        <div class="phone__body">
+          <!--reciever text msg-->
+          <p class="reciever-text-msg">
+            That sounds great. I’d be happy to discuss more.
+          </p>
 
-      <!--the part below the header of the phone-->
-      <div class="phone__body">
-        <!--reciever text msg-->
-        <p class="reciever-text-msg">
-          That sounds great. I’d be happy to discuss more.
-        </p>
+          <p class="reciever-text-msg">
+            Could you send over some pictures of your dog, please?
+          </p>
 
-        <p class="reciever-text-msg">
-          Could you send over some pictures of your dog, please?
-        </p>
+          <!--sender's img message-->
+          <span class="sender-img-msg">
+            <img
+              class="dog-image"
+              src="./images/dog-image-1.jpg"
+              alt="a red dog looking up with his tounge out of his mouth"
+            />
 
-        <!--sender's img message-->
-        <span class="sender-img-msg">
-          <img
-            class="dog-image"
-            src="./images/dog-image-1.jpg"
-            alt="a red dog looking up with his tounge out of his mouth"
-          />
+            <img
+              class="dog-image"
+              src="./images/dog-image-2.jpg"
+              alt="a red dog shich sit on a soil and looking front"
+            />
 
-          <img
-            class="dog-image"
-            src="./images/dog-image-2.jpg"
-            alt="a red dog shich sit on a soil and looking front"
-          />
-
-          <img
-            class="dog-image"
-            src="./images/dog-image-3.jpg"
-            alt="a red dog which holds a stick"
-          />
-        </span>
-
-        <!--sender's text msg-->
-        <p class="sender-text-msg sender-text-msg-1">
-          Here are a few pictures. She’s a happy girl!
-        </p>
-
-        <p class="sender-text-msg sender-text-msg-2">Can you make it?</p>
-
-        <!--reciever text msg-->
-        <p class="reciever-text-msg">
-          She looks so happy! The time we discussed works. How long shall I take
-          her out for?
-        </p>
-
-        <form action="#">
-          <!--radio button-->
-          <div class="receiver-service-info receiver-service-info-1">
-            <label class="custom-radio-btn">
-              <input
-                type="radio"
-                name="price"
-                id="30-minute"
-                value="$29"
-                checked
-              />
-              <span class="checkmark"></span>
-            </label>
-
-            <label for="30-minute">30 minute walk</label>
-
-            <p class="reciever-service-price">$29</p>
-          </div>
-
-          <!--radio button-->
-          <div class="receiver-service-info receiver-service-info-2">
-            <label class="custom-radio-btn">
-              <input type="radio" name="price" id="1-hour" value="$49" />
-              <span class="checkmark"></span>
-            </label>
-            <label for="1-hour">1 hour walk</label>
-
-            <p class="reciever-service-price reciever-service-price-49">$49</p>
-          </div>
-
-          <!--submit button-->
-
-          <span class="text-input">
-            <input type="text" name="message" placeholder="Type a message… " />
-
-            <button type="submit">
-              <i class="fas fa-chevron-right"></i>
-            </button>
+            <img
+              class="dog-image"
+              src="./images/dog-image-3.jpg"
+              alt="a red dog which holds a stick"
+            />
           </span>
-        </form>
+
+          <!--sender's text msg-->
+          <p class="sender-text-msg sender-text-msg-1">
+            Here are a few pictures. She’s a happy girl!
+          </p>
+
+          <p class="sender-text-msg sender-text-msg-2">Can you make it?</p>
+
+          <!--reciever text msg-->
+          <p class="reciever-text-msg">
+            She looks so happy! The time we discussed works. How long shall I
+            take her out for?
+          </p>
+
+          <form action="#">
+            <!--radio button-->
+            <div class="receiver-service-info receiver-service-info-1">
+              <label class="custom-radio-btn">
+                <input
+                  type="radio"
+                  name="price"
+                  id="30-minute"
+                  value="$29"
+                  checked
+                />
+                <span class="checkmark"></span>
+              </label>
+
+              <label for="30-minute">30 minute walk</label>
+
+              <p class="reciever-service-price">$29</p>
+            </div>
+
+            <!--radio button-->
+            <div class="receiver-service-info receiver-service-info-2">
+              <label class="custom-radio-btn">
+                <input type="radio" name="price" id="1-hour" value="$49" />
+                <span class="checkmark"></span>
+              </label>
+              <label for="1-hour">1 hour walk</label>
+
+              <p class="reciever-service-price reciever-service-price-49">
+                $49
+              </p>
+            </div>
+
+            <!--submit button-->
+
+            <span class="text-input">
+              <input
+                type="text"
+                name="message"
+                placeholder="Type a message… "
+              />
+
+              <button type="submit">
+                <i class="fas fa-chevron-right"></i>
+              </button>
+            </span>
+          </form>
+        </div>
       </div>
+
+      <!--the text information about the page-->
+      <main>
+        <h1 class="main-heading">Simple booking</h1>
+
+        <p class="main-text">
+          Stay in touch with our dog walkers through the chat interface. This
+          makes it easy to discuss arrangements and make bookings. Once the walk
+          has been completed you can rate your walker and book again all through
+          the chat.
+        </p>
+      </main>
+      <footer>
+        <p class="attribution">
+          Challenge by
+          <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+            >Frontend Mentor</a
+          >. Coded by <a href="#">Aemro Bekalu</a>.
+        </p>
+      </footer>
     </div>
-
-    <!--the text information about the page-->
-    <main>
-      <h1 class="main-heading">Simple booking</h1>
-
-      <p class="main-text">
-        Stay in touch with our dog walkers through the chat interface. This
-        makes it easy to discuss arrangements and make bookings. Once the walk
-        has been completed you can rate your walker and book again all through
-        the chat.
-      </p>
-    </main>
-    <footer>
-      <p class="attribution">
-        Challenge by
-        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-          >Frontend Mentor</a
-        >. Coded by <a href="#">Aemro Bekalu</a>.
-      </p>
-    </footer>
   </body>
 </html>
