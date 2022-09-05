@@ -347,6 +347,10 @@ button[type="submit"] i {
 /*media queries*/
 @media (min-width: 1440px) {
   /*body*/
+  body {
+    background-color: var(--White);
+  }
+
   .wrapper {
     display: flex;
     flex-wrap: wrap;
@@ -364,9 +368,10 @@ button[type="submit"] i {
   }
 
   .wrapper:after {
-    height: 681px;
+    --Light-Grayish-Violet: hsla(270, 12%, 97%, 0.621);
+    height: 690px;
     width: 27%;
-    border-top-left-radius: 69%;
+    border-top-left-radius: 56%;
   }
 
   /*phone*/
@@ -395,12 +400,12 @@ button[type="submit"] i {
   .main-heading {
     text-align: left;
     font-weight: 500;
-    font-size: 35px;
+    font-size: 36px;
     margin-bottom: 30px;
   }
 
   .main-text {
-    width: 430px;
+    width: 445px;
     margin: 0;
     text-align: unset;
   }
