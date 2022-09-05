@@ -365,7 +365,7 @@ button[type="submit"] i {
 
   .wrapper:after {
     height: 681px;
-    width: 28%;
+    width: 27%;
     border-top-left-radius: 69%;
   }
 
@@ -390,8 +390,13 @@ button[type="submit"] i {
     margin-bottom: 155px;
   }
 
+  /*main heading*/
+
   .main-heading {
     text-align: left;
+    font-weight: 500;
+    font-size: 35px;
+    margin-bottom: 30px;
   }
 
   .main-text {
